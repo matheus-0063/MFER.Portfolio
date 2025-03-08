@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFER.App", "src\MFER.App\MFER.App.csproj", "{6A47FA99-7E85-472C-B243-68B3BD1976A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFER.Data", "src\MFER.Data\MFER.Data.csproj", "{B4320601-1208-46B7-88F4-EC29571B59C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MFER.Business", "src\MFER.Business\MFER.Business.csproj", "{BC7FCF41-51EE-4A84-9723-E375591B0A26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A47FA99-7E85-472C-B243-68B3BD1976A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A47FA99-7E85-472C-B243-68B3BD1976A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A47FA99-7E85-472C-B243-68B3BD1976A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A47FA99-7E85-472C-B243-68B3BD1976A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4320601-1208-46B7-88F4-EC29571B59C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4320601-1208-46B7-88F4-EC29571B59C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4320601-1208-46B7-88F4-EC29571B59C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4320601-1208-46B7-88F4-EC29571B59C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC7FCF41-51EE-4A84-9723-E375591B0A26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC7FCF41-51EE-4A84-9723-E375591B0A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC7FCF41-51EE-4A84-9723-E375591B0A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC7FCF41-51EE-4A84-9723-E375591B0A26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

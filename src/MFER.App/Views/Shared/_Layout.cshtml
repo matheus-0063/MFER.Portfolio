@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewData["Title"] - Minha Aplicação</title>
+        
+        <enviroment include="Development"> 
+            <!-- include="Development" = significa que todo ambiente que for Development ira carregar os links abaixo-->
+            <link rel="stylesheet" href="~/lib/bootstrap/css/bootstrap.css"/>
+            <link rel="stylesheet" href="~/css/site.css"/>
+        </enviroment>
+        
+        <enviroment exclude="Development">
+            <!-- include="Development" = significa que todo ambiente que não for Development ira carregar os links abaixo-->
+        </enviroment>
+    </head>
+    <body>
+    <header>
+        <h1>MFER</h1>
+        <ul class="navbar-nav flex-grow-1 justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">
+                    About
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">
+                    My projects
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">
+                    My projects
+                </a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+    <footer>
+        <p>&copy; 2024 - Minha Aplicação</p>
+    </footer>
+    <enviroment include="Development">
+        <!-- include="Development" = significa que todo ambiente que for Development ira carregar os scripts abaixo-->
+        <script src="~/lib/bootstrap/js/bootstrap.bundle.js"></script>
+        <script src="~/js/site.js"></script>
+    </enviroment>
+
+    <enviroment exclude="Development">
+        <!-- include="Development" = significa que todo ambiente que não for Development ira carregar os scripts abaixo-->
+        <script src="~/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    </enviroment>
+</body>
+</html>
