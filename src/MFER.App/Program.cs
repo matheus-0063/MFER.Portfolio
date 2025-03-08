@@ -27,6 +27,8 @@ builder.Services.AddDbContext<MferDbContext>(options =>
 
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddAutoMapper(typeof(Program));
+
 builder.Services.AddScoped<MferDbContext>();
 
 builder.Services.AddScoped<IContatoRepository, ContatoRepository>();
